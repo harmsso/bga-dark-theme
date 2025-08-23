@@ -1237,6 +1237,22 @@ html[style*="--agricola"] body {
   border-left: 12px solid #3a3d4e;
 }
 
+.bgagame-azulsummerpavilion #page-title #summary {
+  background: #44475a;
+}
+.bgagame-azulsummerpavilion .player-hand {
+  background: #44475a;
+}
+.bgagame-azulsummerpavilion #page-title #summary::after, .bgagame-azulsummerpavilion #page-title #summary::before {
+  border-top: 32px solid #44475a;
+}
+.bgagame-azulsummerpavilion .space:empty::after {
+  background: rgba(68, 71, 90, 0.5);
+}
+.bgagame-azulsummerpavilion .player-table-wrapper .player-hand {
+  box-shadow: 0 0 5px 5px #44475a;
+}
+
 .bgagame-bang .player-info,
 .bgagame-bang .bang-card, .bgagame-bang #role-card {
   color: black;
