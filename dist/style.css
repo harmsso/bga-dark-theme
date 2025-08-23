@@ -1483,6 +1483,13 @@ html[style*="--agricola"] body {
   color: #f8f8f2 !important;
 }
 
+.bgagame-fornorthwood {
+  color: #44475a;
+}
+.bgagame-fornorthwood .whiteblock {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 .bgagame-frenchtarot #called_card .black {
   color: #f8f8f2 !important;
 }
