@@ -66,6 +66,16 @@ body {
   border-top: none !important;
 }
 
+.bga-popup-modal.bga-popup-modal--title-bar-grey.svelte-onjxky .bga-popup-modal__header.svelte-onjxky {
+  background: #f0f0f0;
+  background: linear-gradient(180deg, #43465a 0%, #313342 100%);
+  color: #bd93f9;
+}
+
+.bga-collection-management__row.svelte-1cqkg2v {
+  background-color: #3a3d4e !important;
+}
+
 .text-bga-gray-78 {
   color: #f8f8f2;
 }
