@@ -1421,6 +1421,13 @@ html[style*="--agricola"] body {
   color: black;
 }
 
+.bgagame-castleofmadkingludwig .ca_board .ca_counter {
+  background: rgba(68, 71, 90, 0.5);
+}
+.bgagame-castleofmadkingludwig .aal-popup-content {
+  background: #313342;
+}
+
 .bgagame-catan #cat_summary:before {
   background-image: url(https://x.boardgamearena.net/data/themereleases/current/games/catan/220611-1138/img/summaryv2.jpg);
   background-size: contain;
