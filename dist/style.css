@@ -1903,6 +1903,13 @@ div.orf-tip-card {
   color: black;
 }
 
+.bgagame-pioneerdaysproject .character-box {
+  color: #44475a;
+}
+.bgagame-pioneerdaysproject .whiteblock {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 .bgagame-piratenkapern #game_wrap_piratenkapern #roll_and_reroll #table_roll_wrap div#length.whiteblock {
   color: white;
 }
