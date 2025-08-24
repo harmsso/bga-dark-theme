@@ -67,9 +67,8 @@ body {
 }
 
 .bga-popup-modal.bga-popup-modal--title-bar-grey.svelte-onjxky .bga-popup-modal__header.svelte-onjxky {
-  background: #f0f0f0;
-  background: linear-gradient(180deg, #43465a 0%, #313342 100%);
-  color: #bd93f9;
+  background: linear-gradient(180deg, #43465a 0%, #313342 100%) !important;
+  color: #bd93f9 !important;
 }
 
 .bga-collection-management__row.svelte-1cqkg2v {
