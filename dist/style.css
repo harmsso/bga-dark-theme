@@ -1854,6 +1854,10 @@ div.orf-tip-card {
   text-shadow: none;
 }
 
+.bgagame-paganfateofroanoke .playerBoardTasks {
+  color: #44475a;
+}
+
 .bgagame-papayoo #myhand .stockitem_selected {
   box-shadow: 1px 1px 5px #bd93f9, 2px 2px 4px #bd93f9;
 }
