@@ -4,7 +4,7 @@
 	}
 	color: $onPrimary;
 	
-	.card, .card_back, .fief.front {
+	.card, .card_back, .fief.front, .fief.back {
 		filter: brightness(70%) contrast(170%);
 	}
 	.card.ally_exhausted, .card.unplayable {

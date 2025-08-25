@@ -1604,7 +1604,7 @@ html[style*="--agricola"] body {
 .bgagame-fornorthwood .whiteblock, .bgagame-fornorthwood .visiting_space.currently_visiting, .bgagame-fornorthwood #fief_move_left, .bgagame-fornorthwood #fief_move_right {
   background-color: rgba(0, 0, 0, 0.1);
 }
-.bgagame-fornorthwood .card, .bgagame-fornorthwood .card_back, .bgagame-fornorthwood .fief.front {
+.bgagame-fornorthwood .card, .bgagame-fornorthwood .card_back, .bgagame-fornorthwood .fief.front, .bgagame-fornorthwood .fief.back {
   filter: brightness(70%) contrast(170%);
 }
 .bgagame-fornorthwood .card.ally_exhausted, .bgagame-fornorthwood .card.unplayable {
