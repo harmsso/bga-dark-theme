@@ -1424,7 +1424,8 @@ html[style*="--agricola"] body {
 .bgagame-castleofmadkingludwig .ca_board .ca_counter {
   background: rgba(68, 71, 90, 0.5);
 }
-.bgagame-castleofmadkingludwig .aal-popup-content {
+
+.aal-popup-overlay .aal-popup-content {
   background: #313342;
 }
 
@@ -1600,8 +1601,11 @@ html[style*="--agricola"] body {
 .bgagame-fornorthwood {
   color: #44475a;
 }
-.bgagame-fornorthwood .whiteblock {
+.bgagame-fornorthwood .whiteblock, .bgagame-fornorthwood .visiting_space.currently_visiting, .bgagame-fornorthwood #fief_move_left, .bgagame-fornorthwood #fief_move_right {
   background-color: rgba(0, 0, 0, 0.1);
+}
+.bgagame-fornorthwood .card, .bgagame-fornorthwood .card_back, .bgagame-fornorthwood .fief.front {
+  filter: brightness(70%) contrast(170%);
 }
 
 .bgagame-frenchtarot #called_card .black {

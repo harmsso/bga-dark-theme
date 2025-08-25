@@ -1,6 +1,11 @@
 .bgagame-fornorthwood {
-	.whiteblock{
+	.whiteblock, .visiting_space.currently_visiting, #fief_move_left, #fief_move_right {
 		background-color: rgba(0,0,0,0.1);
 	}
 	color: $onPrimary;
+	
+	.card, .card_back, .fief.front {
+		filter: brightness(70%) contrast(170%);
+	}
+	
 }
