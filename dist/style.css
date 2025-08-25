@@ -1607,6 +1607,9 @@ html[style*="--agricola"] body {
 .bgagame-fornorthwood .card, .bgagame-fornorthwood .card_back, .bgagame-fornorthwood .fief.front {
   filter: brightness(70%) contrast(170%);
 }
+.bgagame-fornorthwood .card.ally_exhausted, .bgagame-fornorthwood .card.unplayable {
+  filter: brightness(0.7);
+}
 
 .bgagame-frenchtarot #called_card .black {
   color: #f8f8f2 !important;

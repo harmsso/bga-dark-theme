@@ -7,5 +7,7 @@
 	.card, .card_back, .fief.front {
 		filter: brightness(70%) contrast(170%);
 	}
-	
+	.card.ally_exhausted, .card.unplayable {
+	  filter: brightness(.7);
+	}
 }
