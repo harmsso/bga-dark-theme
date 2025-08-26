@@ -1884,6 +1884,18 @@ div.orf-tip-card {
   filter: invert(100%) !important;
 }
 
+.bgagame-paxpamir #pp_supply, .bgagame-paxpamir .pp_deck_counters_container {
+  background: #313342;
+}
+
+.settings_modal #setting_modal_content .settings_modal_tabs .settings_modal_tab[data-state=selected] {
+  background: #313342;
+}
+
+.settings_modal #setting_modal_content {
+  background: #313342;
+}
+
 .bgagame-paxrenaissance {
   position: sticky;
   z-index: 1;
