@@ -66,6 +66,15 @@ body {
   border-top: none !important;
 }
 
+.bga-popup-modal.bga-popup-modal--title-bar-grey.svelte-onjxky .bga-popup-modal__header.svelte-onjxky {
+  background: linear-gradient(180deg, #43465a 0%, #313342 100%) !important;
+  color: #bd93f9 !important;
+}
+
+.bga-collection-management__row.svelte-1cqkg2v {
+  background-color: #3a3d4e !important;
+}
+
 .text-bga-gray-78 {
   color: #f8f8f2;
 }
@@ -1303,6 +1312,22 @@ html[style*="--agricola"] body {
   border-left: 12px solid #3a3d4e;
 }
 
+.bgagame-azulsummerpavilion #page-title #summary {
+  background: #44475a;
+}
+.bgagame-azulsummerpavilion .player-hand {
+  background: #44475a;
+}
+.bgagame-azulsummerpavilion #page-title #summary::after, .bgagame-azulsummerpavilion #page-title #summary::before {
+  border-top: 32px solid #44475a;
+}
+.bgagame-azulsummerpavilion .space:empty::after {
+  background: rgba(68, 71, 90, 0.5);
+}
+.bgagame-azulsummerpavilion .player-table-wrapper .player-hand {
+  box-shadow: 0 0 5px 5px #44475a;
+}
+
 .bgagame-bang .player-info,
 .bgagame-bang .bang-card, .bgagame-bang #role-card {
   color: black;
@@ -1394,6 +1419,14 @@ html[style*="--agricola"] body {
 }
 .bgagame-castlecombo .card {
   color: black;
+}
+
+.bgagame-castleofmadkingludwig .ca_board .ca_counter {
+  background: rgba(68, 71, 90, 0.5);
+}
+
+.aal-popup-overlay .aal-popup-content {
+  background: #313342;
 }
 
 .bgagame-catan #cat_summary:before {
@@ -1563,6 +1596,19 @@ html[style*="--agricola"] body {
 .bgagame-forsale .player_sell_zone span.to_translate span,
 .bgagame-forsale .player_bid_zone span.to_translate span {
   color: #f8f8f2 !important;
+}
+
+.bgagame-fornorthwood {
+  color: #44475a;
+}
+.bgagame-fornorthwood .whiteblock, .bgagame-fornorthwood .visiting_space.currently_visiting, .bgagame-fornorthwood #fief_move_left, .bgagame-fornorthwood #fief_move_right {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.bgagame-fornorthwood .card, .bgagame-fornorthwood .card_back, .bgagame-fornorthwood .fief.front, .bgagame-fornorthwood .fief.back {
+  filter: brightness(70%) contrast(170%);
+}
+.bgagame-fornorthwood .card.ally_exhausted, .bgagame-fornorthwood .card.unplayable {
+  filter: brightness(0.7);
 }
 
 .bgagame-frenchtarot #called_card .black {
@@ -1822,6 +1868,10 @@ div.orf-tip-card {
   text-shadow: none;
 }
 
+.bgagame-paganfateofroanoke .playerBoardTasks {
+  color: #44475a;
+}
+
 .bgagame-papayoo #myhand .stockitem_selected {
   box-shadow: 1px 1px 5px #bd93f9, 2px 2px 4px #bd93f9;
 }
@@ -1832,6 +1882,18 @@ div.orf-tip-card {
 .pwhalloween .bgagame-patchwork .time_icon,
 .pwhalloween .bgagame-patchwork .button_icon {
   filter: invert(100%) !important;
+}
+
+.bgagame-paxpamir #pp_supply, .bgagame-paxpamir .pp_deck_counters_container {
+  background: #313342;
+}
+
+.settings_modal #setting_modal_content .settings_modal_tabs .settings_modal_tab[data-state=selected] {
+  background: #313342;
+}
+
+.settings_modal #setting_modal_content {
+  background: #313342;
 }
 
 .bgagame-paxrenaissance {
@@ -1865,6 +1927,13 @@ div.orf-tip-card {
 .bgagame-photosynthesis .psy_overlay_button,
 .bgagame-photosynthesis .psy_suncounter_value {
   color: black;
+}
+
+.bgagame-pioneerdaysproject .character-box {
+  color: #44475a;
+}
+.bgagame-pioneerdaysproject .whiteblock {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .bgagame-piratenkapern #game_wrap_piratenkapern #roll_and_reroll #table_roll_wrap div#length.whiteblock {
