@@ -2387,3 +2387,8 @@ html.appearance-asphalt body {
 .bgagame-draftandwriterecords{
   color: black;
 }
+
+.custom_popin{
+background: grey;
+color: black;
+}
