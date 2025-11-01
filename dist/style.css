@@ -2388,14 +2388,19 @@ html.appearance-asphalt body {
   color: black;
 }
 
+/* Earth */
 .custom_popin{
-background: grey;
-color: black;
+background: #34394A;
+color: white;
 }
 
 /* Scythe */
 .encounter-card-choices{
 color: black;
+}
+
+.bgagame-scythe .roundedboxinner {
+background-color: transparent;
 }
 
 /* Flip 7 */
